@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Pushy Token">
+
+        <EditTextPreference
+            app:key="token"
+            app:title="Pushy Token"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Ussd Processor Thread Delay(ms)">
+        <EditTextPreference
+            app:key="UssdDelay"
+            app:title="Ussd Processor Thread Delay"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Sms Forward Thread Delay(ms)">
+        <EditTextPreference
+            app:key="SmsDelay"
+            app:title="Sms Processor Thread Delay"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

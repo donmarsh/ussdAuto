@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="org.marshsoft.ussdautopushy.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_ussd"
+        android:name="org.marshsoft.ussdautopushy.ui.ussd.UssdFragment"
+        android:label="@string/Ussd"
+        tools:layout="@layout/ussd_fragment" />
+    <fragment
+        android:id="@+id/navigation_sms"
+        android:name="org.marshsoft.ussdautopushy.ui.sms.SmsFragment"
+        android:label="@string/sms"
+        tools:layout="@layout/sms_fragment" />
+    <fragment
+        android:id="@+id/navigation_callbacks"
+        android:name="org.marshsoft.ussdautopushy.ui.callbackUrl.CallbackFragment"
+        android:label="Sms Callbacks"
+        tools:layout="@layout/callback_fragment"/>
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="org.marshsoft.ussdautopushy.ui.SettingsFragment"
+        android:label="@string/settings"/>
+</navigation>

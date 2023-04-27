@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "304894498614",
+    "project_id": "ussdautopushy",
+    "storage_bucket": "ussdautopushy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304894498614:android:52f2ccfb0b529465e64597",
+        "android_client_info": {
+          "package_name": "org.marshsoft.ussdautopushy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304894498614-ut0b64ho6n7e7rliqifrcls5s8043f89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBadQmouFR3DJ-zu8ppqd2e_uSyZV2I46I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304894498614-ut0b64ho6n7e7rliqifrcls5s8043f89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
